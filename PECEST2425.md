@@ -2,14 +2,13 @@
 title: "PEC 2024-2025 de Estadística"
 author: "Alejandro Muñoz Fernández"
 institute: "Centro Asociado de Mérida"
-date:  '25/04/2025'
+date:  '27/04/2025'
 description: "Prueba de evaluación continua de la asignatura de Estadística del curso 2024/2025 en la UNED"
 lang: es-ES
 format: pdf
 mainfont: Liberation Serif
 monofont: Liberation Mono
-geometry: a4paper
-geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
+geometry: a4paper,margin=2cm
 linkcolor: blue
 ---
 
@@ -107,7 +106,7 @@ Con él se genera un histograma con 50 intervalos de observaciones (de los valor
 
 De la forma del histograma de mi simulación podemos decir que:
 
-1. hay una moda en el intervalo (0, 0.1)
+1. hay una moda en el intervalo (0, 0.2)
 
 1. es más densa alrededor de cero, donde está la media, con forma de campana
 
