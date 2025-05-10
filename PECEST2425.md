@@ -79,7 +79,7 @@ En un histograma se pueden apreciar aproximadamente:
 
 1. La simetría de la distribución: es simétrica si tiene forma de campana de Gauss centrada en cero
 
-1. La media en torono a cero y la altura de las barras cae hacia los extremos si la distribución es N(0,1)
+1. La media en trono a cero y la altura de las barras cae hacia los extremos si la distribución es N(0,1)
 
 1. Las modas si hay
 
