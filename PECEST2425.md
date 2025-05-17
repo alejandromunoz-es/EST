@@ -29,13 +29,13 @@ El algoritmo de Box-Müller genera dos variables normales independientes (X e Y)
 
 Los pasos de este algoritmo para obtener las observaciones simuladas son:
 
-1. Se generan dos variables aleatorias independientes (U₁ y U₂) con densidad uniforme entre 0 y 1, con 25000 observaciones cada una
+1. Se generan dos variables aleatorias independientes ($U_1$ y $U_2$) con densidad uniforme entre 0 y 1, con 25000 observaciones cada una
 
-1. Se aplica la transformación Box-Müller a U₁ y U₂ para obtener X e Y con estas fórmulas:
+1. Se aplica la transformación Box-Müller a $U_1$ y $U_2$ para obtener X e Y con estas fórmulas:
 
-    * Devuelve X: ![X](X.svg)
+    * Devuelve X: $X = \sqrt { -2 ln U_2 } cos {\pi U_1}$
 
-    * Devuelve Y: ![Y](Y.svg)
+    * Devuelve Y: $Y = \sqrt { -2 ln U_2 } sen {\pi U_1}$
 
 1. Se combinan X e Y en Z, con 50000 observaciones en total y con distribución normal N(0,1)
 
